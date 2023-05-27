@@ -39,7 +39,9 @@
             // 
             // serviceInstaller1
             // 
+            this.serviceInstaller1.Description = "http://localhost:8033/swagger";
             this.serviceInstaller1.ServiceName = "AyodiaSmartCardService";
+            this.serviceInstaller1.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
             // 
             // ProjectInstaller
             // 
